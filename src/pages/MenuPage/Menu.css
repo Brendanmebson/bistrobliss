@@ -1,0 +1,121 @@
+.mhead{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#mtitle{
+    font-family: Inter;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 38.73px;
+    display: flex;
+    justify-content: center;
+}
+
+.mtext{
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.78px;
+    text-align: center;
+    width: 852px;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: -17px;
+    margin-bottom: 27px;
+    
+}
+.mbtn{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    background-color: white;
+    font-family: inter;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 20px; 
+    margin-right: 25px;
+    width: 130px;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.mbtn:hover{
+    background: #E61111;
+    color: white;
+    border: 0.5px solid #E61111;
+}
+
+.mbtn.active{
+    border: 1px solid #E61111;
+    background: #E61111;
+    color: white;
+}
+.mbtn:focus{
+    background: #E61111;
+}
+ul.allmbtn{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+  .menu-list {
+    margin-top: 20px;
+  }
+  
+  .menu-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: -80px;
+  }
+  
+  .menu-item {
+    width: 190px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border: 1px solid #ffffff;
+    margin: 17px;
+    text-align: center;
+    height: 283px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: inter;
+    margin-bottom: -40px;
+    margin-top: 89px;
+
+
+  }
+
+  .itemdes{
+    max-height: 20px;
+    margin-top: -10px;
+    font-size: 15px;
+  }
+  
+  .menu-item h3 {
+    margin-top: -54px;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: red;
+    font-family: inter;
+    margin-top: 40px;
+  }
+  
+.menuitemimg{
+    height: 200px;
+    width: 231px;
+    display: flex;
+    margin-bottom: 67px;
+    border-radius: 15px 15px 0px 0px;
+}

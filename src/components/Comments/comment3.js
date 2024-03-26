@@ -1,0 +1,2 @@
+const comment3= "Lorem ipsum dolor sit amet consectetur. Vitae natoque ultrices commodo est posuere amet fermentum. Penatibus gravida nullam platea euismod. Consequat vitae consequat nulla at in.fermentum. Penatibus gravida nullam platea euismod. Consequat vitae consequat nulla at";
+export default comment3;

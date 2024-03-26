@@ -1,0 +1,708 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*fooodwheel.css*/
+.foodcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 125px;
+    transform: rotate(44deg);
+  }
+
+  @keyframes rotate-center {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .rotate-center {
+    animation: rotate-center 60s linear infinite both;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .food{
+    width: 170px;
+    height: 170px;
+    margin: 7px;
+    margin-top: 8px;
+    transform:rotate(-45deg);
+    padding: 10px;
+    
+  }
+
+/*Foodbar.css*/
+.fbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 160px;
+    position: relative;
+  }
+  
+  .foodbarimg {
+    position: relative;
+    width: 1078px;
+    height: 280px;
+  }
+  
+  .minifbar {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    margin: 5px;
+    height: 215px;
+    width: 919px;
+    margin-top: 183px;
+    display: flex;
+    justify-content: center;
+    box-shadow: -4px 4px 18px 0px #00000040;
+
+}
+  
+.fbarblock{
+  text-align: justify;
+  height: 220px;
+  border-radius: 35px;
+  width: 293px;
+  margin-right: 1px;
+  display: flex;
+
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fbaricon1{
+  height: 40px;
+  width: 40px;
+  background: #ff939c45;
+  border-radius: 100%;
+  padding: 20px;
+  margin-bottom: -10px;
+  margin-right: 10px;
+}
+
+.fbaricon2{
+  height: 40px;
+  width: 40px;
+  background: #82ffff26;
+  border-radius: 100%;
+  padding: 20px;
+  margin-bottom: -10px;
+  margin-right: 10px;
+}
+
+.fbaricon3{
+  height: 40px;
+  width: 40px;
+  background: #bbff7626;
+  border-radius: 100%;
+  padding: 20px;
+  margin-bottom: -10px;
+  margin-right: 10px;
+}
+
+
+.fbaricon{
+ height: 40px;
+ width: 40px;
+}
+
+.fbartext1{
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 37px;
+  text-align: center;
+  width: 300px;
+  margin-top: 18px;
+  margin-right: 10px;
+}
+
+.fbartext2{
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  width: 243px;
+  margin-top: -25px;
+  margin-right: 10px;
+}
+
+/*Aboutbar1*/
+.abtbar1 {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px; 
+}
+  
+  .Abtbar1img{
+    width: 616px;
+    height: 529px;
+    border-radius: 18px 0px 0px 0px;
+    margin-left: 80px;
+  }
+  
+  .text-container {
+    padding: 0 20px;
+    flex-direction: column;
+  }
+  
+  .text-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: inter;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -80px;
+  }
+
+  .abttext{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.5px;
+    text-align: left;
+    width: 470px;
+    height: 350px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .liltext{
+    margin: 9px;
+  }
+
+  /*Aboutbarbtn*/
+  .MAU{
+    text-decoration: none;
+    color: white;
+    background-color: #E61111;
+    border: 2px solid #E61111;
+    font-family: inter;
+    font-size: 19px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    justify-content: center;
+    margin-left: 735px;
+    display: flex;
+    margin-top: -120px;
+
+  }
+  
+  .MAU:hover {
+    background-color: #ff0011;
+  }
+
+  /* Aboutbartxt css*/
+  .abtbar1txt{
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.5px;
+  text-align: left;
+  width: 470px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 725px;
+  display: flex;
+  margin-top: -155px;
+  }
+
+
+  /*Aboutbar2*/
+.abtbar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 236;
+  }
+  
+  .abtbarimg {
+    position: relative;
+    width: 1108px;
+    height: 340px;
+    opacity: 0.60;
+    margin-top: 70px;
+    margin-bottom: -50px;
+  }
+
+  .miniabar {
+    position: absolute;
+    display: flex;
+    background-color: white;
+    margin: 5px;
+    height: 144px;
+    width: 908px;
+    margin-top: 363px;
+    display: flex;
+    box-shadow: -4px 4px 18px 0px #00000040;
+    justify-content: space-evenly;
+}
+.circle{
+    border-radius: 100px;
+    background-color: #ffffff80;
+    position: absolute;
+    margin: 5px;
+    height: 138px;
+    margin-top: -194px;
+    width: 144px;
+    margin-left: 503px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abarblock{
+    text-align: center;
+    margin-top: 17px;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    
+}
+
+/*Miniservices*/
+.servicebar{
+    padding: 20px;
+    margin-top: 25px;
+}
+
+#sertitle{
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      font-family: inter;
+      margin-top: 20px;
+      font-size: 25px;
+      font-weight: 700;
+    }
+    
+.serminicontainer {
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-top: 30px;
+      }
+      
+.serblock {
+        padding: 29px;
+        border: 1px solid #ffffff;
+        margin: 15px;
+        padding: 20px;
+        text-align: justify;
+        height: 330px;
+        width: 235px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 3px 3px 14px 0px #00000040;
+        margin-bottom: 70px;
+        margin-top: 20px;
+      
+      }
+    
+    .miniimg {
+      display: flex;
+      height: 220px;
+      width: 279px;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -32px;
+      margin-bottom: 0px;
+      
+    }
+    
+    .sertext1{
+      font-family: inter;
+      width: 275px;
+      height: 84px;
+      font-size: 22px;
+      line-height: 25px;
+      justify-content: center;
+      display: flex;
+      font-weight: 800;
+      align-items: center;
+      margin-top: -4px;
+      margin-bottom: -36px;
+      color: #E61111;
+    }
+    .sertext2{
+      font-family: inter;
+      width: 270px;
+      height: 53px;
+      font-size: 19px;
+      line-height: 25px;
+      display: flex;
+      font-weight: 470;
+      text-align: center;
+      margin-top: 21px;
+    }
+    .minimenu{
+      text-decoration: none;
+      font-family: inter;
+      font-size: 16px;
+      color: #E61111;
+      margin-top: 25px;
+      position:absolute;
+      margin-left: -50px;
+    }
+
+/*Minimenu*/
+.bar2 {
+background-color: #fdfdfd;
+padding: 5px;
+margin-bottom: 10px;
+font-family: inter;
+margin-left: -8px;
+margin-right: -8px;
+}
+.BOM{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: inter;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.menminicontainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+  }
+  
+.block {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 2px;
+    text-align: justify;
+    height: 220px;
+    border-radius: 28px;
+    width: 238px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0.4rem 0.4rem 2rem rgba(0, 0, 0, 0.25);
+  }
+
+.minilogo {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -39px;
+  margin-bottom: 0px;
+}
+
+.mentext1{
+  font-family: inter;
+  width: 190px;
+  height: 80px;
+  font-size: 22px;
+  line-height: 25px;
+  justify-content: center;
+  display: flex;
+  font-weight: 800;
+  align-items: center;
+  margin-top: -10px;
+  margin-bottom: -5px;
+}
+.mentext2{
+  font-family: inter;
+  width: 220px;
+  height: 53px;
+  font-size: 17px;
+  line-height: 25px;
+  display: flex;
+  margin-top: -15px;
+  font-weight: 470;
+  
+}
+.minimenu{
+  text-decoration: none;
+  font-family: inter;
+  font-size: 16px;
+  color: #E61111;
+  margin-top: 25px;
+  position:absolute;
+  margin-left: -50px;
+}
+
+/* ImageSlider.css */
+.container {
+    text-align: center;
+    margin-top: 200px;
+  }
+  
+  .image {
+    max-width: 400px;
+    margin-bottom: 10px;
+
+  }
+  
+  .comment {
+    display: flex;
+    font-family: Inter;
+    width: 371px;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+
+  }
+
+  .commenttitle{
+    width: 408px;
+    height: 37px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 30px;
+
+  }
+  .topsection{
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+    justify-content: center;
+  }
+  .slider{
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 500px;
+    display: flex;
+    margin: auto;
+    box-shadow: -2px 5px 15px 0px #50505040;
+    margin-top: 40px;
+
+  }
+  .details{
+    margin-left: 30px;
+    display: inline;
+    font-family: inter;
+  }
+  .username{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 650;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: -14px;
+  }
+
+  .location{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    text-align: center;
+
+  }
+  .dot-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot.active {
+    background-color: #555;
+  }
+  
+/*Footer*/
+footer {
+    background-color: #f5252575;
+    padding: 20px;
+    text-align: center;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    color: white;
+    text-decoration: none;
+    height: 280px;
+    margin-top: 70px;
+  }
+  
+  .footertitle{
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .FooterLogo{
+    height: 45px;
+    width: 60px;
+  }
+
+  .FooterName a{
+    text-decoration: none;
+    width: 250px;
+    height: 36px;
+    font-family: Inika;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41.7px;
+    color: white;
+}
+
+  .Footertitle{
+    display: flex;
+}
+
+  .description {
+    width: 315px;
+    height: 116px;
+    text-align: left;
+    color: white;
+    font-family: inter;
+  }
+  
+  .footer-section {
+    display: inline-table;
+    margin-right: 90px;
+    color: white;
+    font-family: inter;
+
+  }
+
+  .footer-section1{
+    margin-left: 80px;
+    margin-top: 15px;
+  }
+  
+  .footer-section2{
+    display: flex;
+    text-align: justify;
+    margin-left: auto;
+    margin-top: -8px;
+    font-size: 20px;
+  }
+
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+
+  .footer-section a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+    margin-top: 27px;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section0{
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  .Emailinput{
+    padding: 10px 15px;
+    padding-right: 40px;
+    border-radius: 14px 0px 0px 14px ;
+    border: 0px;
+    width: 200px;
+    height: 30px;
+    margin-left: -80px;
+    font-family: inter;
+    margin-top: 20px;
+  }
+
+  .Emailinput:focus{
+    outline: none;
+    
+  }
+  .Email{
+    position: relative;
+    display: inline-block;
+  }
+  
+  .Subscribe{
+    position: absolute;
+    right: 0;
+    margin-top: 10;
+    bottom: 0;
+    padding: 10px 7px;
+    background-color: #E61111;
+    color: #fff;
+    border: none;
+    border-radius: 0px 14px 14px 0px  ;
+    width: 133px;
+    height: 50px;
+    font-size: 16px;
+    font-family: inter;
+    margin-right: -100px;
+    box-shadow: 0px 1px 10px 0px #00000040;
+  }
+  .Subscribe:focus{
+    outline: none;
+    box-shadow: 0px 5px 8px 0px #00000040;
+  }
+  
+  .Subscribe:hover {
+    background-color: #ff0011;
+    box-shadow: 0px 5px 8px 0px #00000040;
+  }
+  
+  
